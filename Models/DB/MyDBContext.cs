@@ -26,7 +26,7 @@ namespace TSUBAKI.Models.DB
         {
             if(!optionsBuilder.IsConfigured)
             {
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\AYAKADB; Initial Catalog=AyakaDB; Integrated Security=True; Multiple Active Result Sets=True");
+            optionsBuilder.UseSqlServer("Data Source=ML-RefVm-827311; Initial Catalog=AyakaDB; Integrated Security=True; Multiple Active Result Sets=True");
             }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
